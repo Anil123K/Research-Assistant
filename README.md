@@ -19,18 +19,19 @@ python -m venv research_assistant_env
 source research_assistant_env/bin/activate  
 
 Install Required Libraries:                                                                                                                                                                
-pip install transformers streamlit fastapi neo4j uvicorn outlines
-
-FEATURES
-Retrieve Papers by Topic: Fetches papers from Neo4j based on the specified topic.
-Question Answering on Paper Summaries: Uses a DistilBERT model for answering questions directly from the paper summaries.
-Detailed and Contextualized Answers: Provides an elaborated answer with context from the paper, making responses more conversational and informative.
-Summarize Findings: Creates a summary of key insights from multiple papers related to a given topic.
-Generate Future Research Directions: Identifies and compiles future research opportunities based on the content of the papers.
+pip install transformers streamlit fastapi neo4j uvicorn outlines                                                                                                                          
 
 RUNNING THE APPLICATION
 
 streamlit run app.py
+
+FEATURES
+
+Retrieve Papers by Topic: Fetches papers from Neo4j based on the specified topic.                                                                                                          
+Question Answering on Paper Summaries: Uses a DistilBERT model for answering questions directly from the paper summaries.                                                                  
+Detailed and Contextualized Answers: Provides an elaborated answer with context from the paper, making responses more conversational and informative.                                      
+Summarize Findings: Creates a summary of key insights from multiple papers related to a given topic.                                                                                       
+Generate Future Research Directions: Identifies and compiles future research opportunities based on the content of the papers.                                                             
 
 
 
