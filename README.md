@@ -6,8 +6,8 @@ PROJECT SETUP
 
 Prerequisites
 
-Python 3.7 or higher
-Neo4j cloud setup
+Python 3.7 or higher                                                                                                                                                                       
+Neo4j cloud setup                                                                                                                                                                          
 pip upgraded to the latest version 
 
 INSTALLTION
