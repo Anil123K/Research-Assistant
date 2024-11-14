@@ -14,11 +14,11 @@ INSTALLTION
 
 git clone <repository-url>
 
-Set Up a Virtual Environment:
-python -m venv research_assistant_env
+Set Up a Virtual Environment:                                                                                                                                                              
+python -m venv research_assistant_env                                                                                                                                                      
 source research_assistant_env/bin/activate  
 
-Install Required Libraries:
+Install Required Libraries:                                                                                                                                                                
 pip install transformers streamlit fastapi neo4j uvicorn outlines
 
 RUNNING THE APPLICATION
