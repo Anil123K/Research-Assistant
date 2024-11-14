@@ -1,4 +1,4 @@
-This project is an academic research paper assistant built using Large Language Models (LLMs), Streamlit, FastAPI, and Neo4j. 
+This project is an academic research paper assistant built using Large Language Models (LLMs), Streamlit and Neo4j. 
 It aims to help users retrieve, summarize, and interact with academic research papers. 
 The assistant supports various functions such as topic-based paper retrieval, Q&A, and generating summaries or research ideas.
 
